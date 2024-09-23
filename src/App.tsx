@@ -4,7 +4,7 @@ import Layout from "./components/Layout";
 
 const App: React.FC = () => {
   return (
-    <div>
+    <div className="bg-gray-50">
       <Layout />
     </div>
   );

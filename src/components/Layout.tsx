@@ -1,5 +1,6 @@
 import HeadingSelect from "./LeftSideComponents/HeadingSelect";
 import LeftSideContent from "./LeftSideComponents/LeftsideContents";
+import Chart from "./RightSideComponents/Chart";
 
 const Layout = () => {
   return (
@@ -18,7 +19,11 @@ const Layout = () => {
           </div>
         </div>
       </div>
-      <div>Right side</div>
+      <div className="container">
+        <div className="graph-container">
+          <Chart />
+        </div>
+      </div>
     </div>
   );
 };
