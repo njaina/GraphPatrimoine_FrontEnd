@@ -5,7 +5,7 @@ const HeadingSelect = () => {
     <>
       <label>Patrimoine:</label>
       <select className="ml-2">
-        <option>Option 1 </option>
+        <option>Crésus </option>
       </select>
       <ul className="mt-3 items-center w-full text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg sm:flex dark:bg-gray-700 dark:border-gray-600 dark:text-white">
         <CheckboxItem id="agragat">Agrégat</CheckboxItem>
