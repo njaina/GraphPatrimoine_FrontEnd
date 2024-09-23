@@ -1,15 +1,13 @@
 import "./App.css";
 import React from "react";
-import PostsPage from "./components/GetAllComponent";
-import CreateNewPost from "./components/NewPostComponent";
+import Layout from "./components/Layout";
 
 const App: React.FC = () => {
-    return (
-        <div>
-            {/*<CreateNewPost />*/}
-            <PostsPage />
-        </div>
-    );
+  return (
+    <div>
+      <Layout />
+    </div>
+  );
 };
 
 export default App;
